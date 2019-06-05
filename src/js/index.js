@@ -152,9 +152,9 @@
   }
 
   function newElement() {
-    var li = document.createElement("li");
+    // var li = document.createElement("li");
+    // var t = {};
     var inputValue = document.querySelector("#myInput").value;
-    var t = {};
 
     if (!inputValue.length) {
       alert("You must write something!");
